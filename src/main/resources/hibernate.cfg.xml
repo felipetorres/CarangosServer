@@ -1,0 +1,13 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+	    <mapping class="br.com.caelum.carangos.modelo.BlogPost"/>
+		<mapping class="br.com.caelum.carangos.modelo.Usuario"/>
+		<mapping class="br.com.caelum.carangos.gcm.model.Device"/>
+		<mapping class="br.com.caelum.carangos.gcm.model.Sender"/>
+	</session-factory>
+</hibernate-configuration>
+
